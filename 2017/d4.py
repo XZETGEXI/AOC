@@ -14,7 +14,7 @@ for datum in data:
     if len(datum) == len(set(datum)):
         score += 1
 
-print(score)
+print("silver", score)
 
 d = Counter()
 
@@ -26,4 +26,4 @@ for datum in data:
     if not m:
         score += 1
 
-print(score)
+print("gold", score)
